@@ -45,8 +45,8 @@ export default function Navbar() {
           <img
             src="/images/logo_aha_jasna_white.png"
             alt="AHA Jasná"
-            className={`h-10 w-auto transition-all duration-500 ${
-              scrolled ? "brightness-0" : "brightness-100"
+            className={`w-auto transition-all duration-500 ${
+              scrolled ? "h-10 brightness-0" : "h-32 md:h-36 brightness-100"
             }`}
           />
         </button>
