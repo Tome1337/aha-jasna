@@ -127,7 +127,7 @@ export default function ApartmentsSection() {
 
               {/* Amenities quick list */}
               <div className="flex flex-wrap gap-2 mb-8">
-                {["Wi-Fi", "LCD TV", "Kuchynka", "Parkovisko"].map((item) => (
+                {t.aptChips.map((item) => (
                   <span key={item} className="text-xs bg-amber-50 text-amber-700 px-2.5 py-1 rounded-md font-medium">
                     {item}
                   </span>

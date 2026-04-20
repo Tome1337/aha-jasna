@@ -201,6 +201,13 @@ export const translations = {
       contact: "Kontakt",
       partner: "Náš partner",
     },
+    stats: [
+      { number: "9", label: "Apartmánov" },
+      { number: "4+", label: "Roky skúseností" },
+      { number: "4★", label: "Hodnotenie hostí" },
+      { number: "2min", label: "Od lanoviek" },
+    ],
+    aptChips: ["Wi-Fi", "LCD TV", "Kuchynka", "Parkovisko"],
     booking: {
       guest1: "1 hosť",
       guests: "hostia",
@@ -405,6 +412,13 @@ export const translations = {
       contact: "Contact",
       partner: "Our partner",
     },
+    stats: [
+      { number: "9", label: "Apartments" },
+      { number: "4+", label: "Years of experience" },
+      { number: "4★", label: "Guest rating" },
+      { number: "2min", label: "From lifts" },
+    ],
+    aptChips: ["Wi-Fi", "LCD TV", "Kitchenette", "Parking"],
     booking: {
       guest1: "1 guest",
       guests: "guests",

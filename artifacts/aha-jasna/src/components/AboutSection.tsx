@@ -77,12 +77,7 @@ export default function AboutSection() {
         {/* Stats bar */}
         <AnimatedDiv delay={400} className="mt-16">
           <div className="bg-[#1C3229] rounded-2xl p-8 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            {[
-              { number: "9", label: "Apartmánov" },
-              { number: "4+", label: "Roky skúseností" },
-              { number: "4★", label: "Hodnotenie hostí" },
-              { number: "2min", label: "Od lanoviek" },
-            ].map((stat) => (
+            {t.stats.map((stat) => (
               <div key={stat.label}>
                 <div className="font-serif text-3xl font-bold text-amber-400 mb-1">{stat.number}</div>
                 <div className="text-white/70 text-sm">{stat.label}</div>
