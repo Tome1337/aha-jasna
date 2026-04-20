@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "pnpm --filter @workspace/aha-jasna build",
+  "installCommand": "pnpm install --frozen-lockfile",
+  "outputDirectory": "artifacts/aha-jasna/dist/public",
+  "framework": null,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
