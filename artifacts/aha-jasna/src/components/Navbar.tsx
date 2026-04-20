@@ -35,7 +35,11 @@ export default function Navbar() {
           : "bg-transparent"
       }`}
     >
-      <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <div
+        className={`max-w-6xl mx-auto px-6 flex items-center justify-between transition-all duration-500 ${
+          scrolled ? "h-16" : "py-4 md:py-5"
+        }`}
+      >
         {/* Logo */}
         <button
           onClick={() => scrollTo("hero")}
@@ -46,7 +50,7 @@ export default function Navbar() {
             src="/images/logo_aha_jasna_white.png"
             alt="AHA Jasná"
             className={`w-auto transition-all duration-500 ${
-              scrolled ? "h-10 brightness-0" : "h-32 md:h-36 brightness-100"
+              scrolled ? "h-10 brightness-0" : "h-20 md:h-24 brightness-100"
             }`}
           />
         </button>
